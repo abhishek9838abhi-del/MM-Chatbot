@@ -1,0 +1,7 @@
+# Optional dependencies for running Hugging Face models locally (HF_INFERENCE_MODE=local)
+-r requirements.txt
+torch>=2.5.0
+transformers>=4.46.0
+sentence-transformers>=3.3.0
+accelerate>=1.1.0
+soundfile>=0.12.1

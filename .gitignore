@@ -1,0 +1,30 @@
+# Python & Virtual Environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Environment & Secrets
+.env
+.env.local
+
+# Runtime Storage & Uploaded User Files
+storage/documents/*
+!storage/documents/.gitkeep
+storage/images/*
+!storage/images/.gitkeep
+storage/audio/*
+!storage/audio/.gitkeep
+storage/vectors/*
+!storage/vectors/.gitkeep
+storage/*.db
+
+# Logs & IDE
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
